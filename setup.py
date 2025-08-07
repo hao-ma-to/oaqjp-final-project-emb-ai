@@ -8,7 +8,9 @@ setup(
     name="emotion-detection",
     version="0.1.0",
     packages=find_packages(), # to find the package automatically
-    install_requires=["requests"], # to add dependences, if any
+    install_requires=[
+        "requests",
+        "flask"], # to add dependences, if any
     author="hao-ma-to",
     description="Emotion Detection using IBM Watson",
 )
